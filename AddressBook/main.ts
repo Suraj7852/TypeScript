@@ -10,7 +10,7 @@ while(true)
     try {
         switch (choice) {
                 case 1:
-                        console.log(`Enter ${this.personArray.length} address`)
+                        //console.log(`Enter ${this.personArray.length} address`)
                         console.log("Enter first name: ");
                         let firstName = util.stringInput();
                         console.log("Enter Last name: ");

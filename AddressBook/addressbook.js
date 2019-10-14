@@ -78,7 +78,7 @@ var AddressBook = /** @class */ (function () {
             if (update == 0) {
                 console.log("Enter address: ");
                 var up = util.stringInput();
-                this.personArray[index].adress = add;
+                this.personArray[index].address = up;
             }
             else if (update == 1) {
                 console.log("Enter city: ");

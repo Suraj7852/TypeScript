@@ -2,13 +2,14 @@
 exports.__esModule = true;
 var book = require("./addressbook");
 var util = require("../utility");
+book.ShowExistingContact();
 while (true) {
     console.log("Enter\n1 => Add in Contact:\n2 => Edit:\n3 => Delete\n4 => Display\n5 => Sort by Name\n6 => Sort by Zip\n7 => Exit\nEnter Choice: ");
     var choice = util.intInput();
     try {
         switch (choice) {
             case 1:
-                console.log("Enter " + this.personArray.length + " address");
+                //console.log(`Enter ${this.personArray.length} address`)
                 console.log("Enter first name: ");
                 var firstName = util.stringInput();
                 console.log("Enter Last name: ");
@@ -22,16 +23,11 @@ while (true) {
                 console.log("Enter Zip code: ");
                 var zip = util.intInput();
                 console.log("Enter phone number: ");
-                var mobNoReg = /^[6-9]\d{9}$/;
-                var up = util.intInput();
-                var phone = void 0;
-                if (mobNoReg.test(up)) {
-                    phone = up;
+                var phone = util.intInput();
+                var id = book.AddInAdressBook(firstName, lastName, address, city, state, zip, phone);
+                if (id instanceof Error) {
+                    throw id.message;
                 }
-                else {
-                    console.log("Invalid Mobile Number\n");
-                }
-                book.AddInAdressBook(firstName, lastName, address, city, state, zip, phone);
                 book.Save();
                 break;
             case 2:

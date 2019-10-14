@@ -36,12 +36,21 @@
         "phone": 2336666999
     },
     {
-        "firstName": "aaaaaa",
-        "lastName": "bbbbbbb",
-        "address": "cccccccccc",
-        "city": "ddddddddd",
-        "state": "eeeeeeeeee",
-        "zip": 0,
-        "phone": 0
+        "firstName": "rajesh",
+        "lastName": "kumar",
+        "address": "Dhurwa",
+        "city": "ranchi",
+        "state": "jharkhand",
+        "zip": 863221,
+        "phone": 7789654231
+    },
+    {
+        "firstName": "jhj",
+        "lastName": "hjhj",
+        "address": "hjjh",
+        "city": "jhjh",
+        "state": "hjj",
+        "zip": 236554,
+        "phone": 9335664412
     }
 ]

@@ -1,6 +1,5 @@
 
 import * as util from '../utility'
-import * as input from 'readline-sync';
 import {addBook} from './addressBookInterface';
 
 // This class is for adding person in addressbook
@@ -71,9 +70,9 @@ class AddressBook implements addBook {
             if (!zipregex.test(zip)) {
                 throw new Error('zip must be 6 digit long');
             }
-            let phoneregex: RegExp = /^[7-9]{1}[0-9]{9}$/;
+            let phoneregex: RegExp = /^[6-9]\d{9}$/;
             if (!phoneregex.test(phone)) {
-                throw new Error('phone number must start with 7,8 or 9 and must be 10 digit long');
+                throw new Error('phone number must start with 6,7,8 or 9 and must be 10 digit long');
             }
             let newadd = new Person(firstName,lastName,address,city,state,zip,phone);
             this.personArray.push(newadd);
@@ -90,12 +89,13 @@ class AddressBook implements addBook {
     {
         try {
             console.log("You cant change first name nad lastname:");
-            var update = input.questionInt("Enter 0 to change adress\n1 to change city name\n2 to change state\n3 to change zip code\n4 to change ph.No.");
+            console.log("Enter \n0 to change address\n1 to change city name\n2 to change state\n3 to change zip code\n4 to change ph.No.")
+            var update = util.intInput();
             if(update == 0)
             {
                 console.log("Enter address: ");
                 var up = util.stringInput();
-                this.personArray[index].adress = add;
+                this.personArray[index].address = up;
             }
             else if(update == 1)
             {

@@ -24,7 +24,7 @@ describe('Add', function(){
     })
     it('it should be 10 digit',function(){
         let val = AddressBook.AddInAdressBook('suraj','kumar','Dhurwa','ranchi','jharkhand',834804,93345584158709);
-        assert.equal(val.message.toString(),"phone number must start with 7,8 or 9 and must be 10 digit long");
+        assert.equal(val.message.toString(),"phone number must start with 6,7,8 or 9 and must be 10 digit long");
     })
     it('it should return sucessful',function(){
         let val = AddressBook.AddInAdressBook('suraj','kumar','Dhurwa','ranchi','jharkhand',834804,9334158709);
