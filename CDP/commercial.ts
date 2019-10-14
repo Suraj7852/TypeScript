@@ -1,3 +1,12 @@
+/**
+ * 
+ * @author   : Suraj Kumar Nag
+ * Date      : 3/09/2019
+ * Purpose   : To create the Commercial Data Processing in which they can
+ *             Buy Stock
+ *             Sell Stock
+ *             To show transection Details
+ **/
 import * as util from '../utility';
 import moment = require('moment');
 import {Icommercial} from './commercialInterface';
@@ -74,7 +83,7 @@ class commercial implements Icommercial {
             }
         } catch (error) {
             console.log(error);
-        }
+        }     
         
     }
 

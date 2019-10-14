@@ -1,3 +1,10 @@
+/**
+ * 
+ * @author   : Suraj Kumar Nag
+ * Date      : 3/09/2019
+ * Purpose   : To distribute Deck Of Card within 4 people
+ *             To select them in assending order
+ **/
 import * as util from '../utility';
 
 function shuffle(deck)

@@ -1,3 +1,13 @@
+/**
+ * 
+ * @author   : Suraj Kumar Nag
+ * Date      : 3/09/2019
+ * Purpose   : Clinic Managment Program in which following feture should be there
+ *             To add Patient
+ *             To search doctor by name,id,Specility
+ *             To Search Patient by name, id, age, phone No.
+ *             To take Appointment with Doctor
+ **/
 import {cmpIntface} from './cmpInterface';
 import * as util from '../utility';
 

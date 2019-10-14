@@ -1,4 +1,14 @@
-
+/**
+ * 
+ * @author   : Suraj Kumar Nag
+ * Date      : 11/10/2019
+ * Purpose   : To create the Address Book in which user can 
+ *             Add user
+ *             Delete existing contact
+ *             Edit
+ *             Sort by name
+ *             Sort by Zip code
+ **/
 import * as util from '../utility'
 import {addBook} from './addressBookInterface';
 
