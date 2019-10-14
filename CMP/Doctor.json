@@ -1,0 +1,30 @@
+[{
+    "Dname":"Ajit",
+    "Did":1234,
+    "Specialization":"Physician",
+    "Availability":"10AM to 7PM"
+},
+{
+    "Dname":"Suraj",
+    "Did":1235,
+    "Specialization":"Cardiologist",
+    "Availability":"10AM to 1PM"
+},
+{
+    "Dname":"Kumar",
+    "Did":1236,
+    "Specialization":"Surgeon",
+    "Availability":"4PM to 8PM"
+},
+{
+    "Dname":"Rahul",
+    "Did":1237,
+    "Specialization":"Obstetrician",
+    "Availability":"5PM to 7PM"
+},
+{
+    "Dname":"shrawan",
+    "Did":1238,
+    "Specialization":"Psychiatrist",
+    "Availability":"4PM to 8PM"
+}]

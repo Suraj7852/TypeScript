@@ -1,0 +1,32 @@
+[
+    {
+        "Dname": "Ajit",
+        "Did": "2345",
+        "special": "Physician",
+        "avalible": "10AM to 7PM",
+        "Pname": "Ajit",
+        "Pid": 1234,
+        "ph": 7739427302,
+        "age": 30
+    },
+    {
+        "Dname": "Suraj",
+        "Did": "2346",
+        "special": "Cardiologist",
+        "avalible": "10AM to 1PM",
+        "Pname": "Suraj",
+        "Pid": 1235,
+        "ph": 7739427002,
+        "age": 26
+    },
+    {
+        "Dname": "Kumar",
+        "Did": "2347",
+        "special": "Surgeon",
+        "avalible": "4PM to 8PM",
+        "Pname": "Kumar",
+        "Pid": 1236,
+        "ph": 7739428002,
+        "age": 56
+    }
+]

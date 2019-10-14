@@ -1,0 +1,26 @@
+[
+    {
+        "stockId": 1,
+        "stockName": "TCS",
+        "noOfShares": 35,
+        "sharesPrice": 200
+    },
+    {
+        "stockId": 2,
+        "stockName": "IBM",
+        "noOfShares": 25,
+        "sharesPrice": 600
+    },
+    {
+        "stockId": 3,
+        "stockName": "Blab",
+        "noOfShares": 2,
+        "sharesPrice": 500
+    },
+    {
+        "stockId": 4,
+        "stockName": "JDA",
+        "noOfShares": 10,
+        "sharesPrice": 500
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "personId": 1,
+        "PersonName": "suraj kumar",
+        "balance": 422200,
+        "shares": 100,
+        "sharesPrice": 200
+    },
+    {
+        "personId": 2,
+        "PersonName": "vikash kumar",
+        "balance": 508200,
+        "shares": 45,
+        "sharesPrice": 150
+    }
+]

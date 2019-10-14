@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var util = require("../utility");
+var val = util.ReadFile('./Inventory.json');
+console.log(val);
+console.log("Cost of Rice: ");
+var riceCost = (val[0]['weight']) * (val[0]['price_pr_kg']);
+console.log(riceCost);
+console.log("Cost of pulses: ");
+var pulCost = (val[1]['weight']) * (val[1]['price_pr_kg']);
+console.log(pulCost);
+console.log("Cost of wheats: ");
+var whCost = (val[2]['weight']) * (val[2]['price_pr_kg']);
+console.log(whCost);

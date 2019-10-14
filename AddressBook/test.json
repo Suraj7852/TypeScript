@@ -1,0 +1,47 @@
+[
+    {
+        "firstName": "Suraj",
+        "lastName": "kumar",
+        "address": "DT-1964",
+        "city": "Ranchi",
+        "state": "Jharkhand",
+        "zip": 834004,
+        "phone": 7739427302
+    },
+    {
+        "firstName": "shubham",
+        "lastName": "kumar",
+        "address": "DT-1965",
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "zip": 723010,
+        "phone": 9939042399
+    },
+    {
+        "firstName": "Bikash",
+        "lastName": "kumar",
+        "address": "DT-1966",
+        "city": "Mumbai",
+        "state": "Maharastra",
+        "zip": 732636,
+        "phone": 7004049194
+    },
+    {
+        "firstName": "dffg",
+        "lastName": "fgdgfg",
+        "address": "fggfd",
+        "city": "gfdf",
+        "state": "dffg",
+        "zip": 85585,
+        "phone": 2336666999
+    },
+    {
+        "firstName": "aaaa",
+        "lastName": "ssssssssss",
+        "address": "cccccccccc",
+        "city": "dddddddddd",
+        "state": "eeeeeeeee",
+        "zip": 88888888,
+        "phone": 7777777777
+    }
+]
